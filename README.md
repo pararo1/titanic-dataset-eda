@@ -1,49 +1,37 @@
 # Titanic Dataset – Exploratory Data Analysis (EDA)
 
 ## Project Overview
+Exploratory Data Analysis of the Titanic dataset using Python to understand passenger characteristics and survival patterns.
 
-This project focuses on Exploratory Data Analysis (EDA) of the Titanic dataset using Python. The objective is to explore passenger demographics, travel characteristics and survival outcomes to identify patterns and relationships within the dataset.
-
-The analysis uses Python libraries such as Pandas, NumPy, Matplotlib and Seaborn for data exploration, statistical analysis and visualisation.
-
-## Dataset Information
-
-- **Dataset:** Titanic (`tested.csv`)
-- **Total Records:** 418 passengers
-- **Total Columns:** 12
-
-The dataset contains information about passenger identification, survival status, passenger class, gender, age, family members, ticket details, fare, cabin and embarkation port.
-
-## Tools and Technologies
-
+## Tools & Technologies
 - Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 - Jupyter Notebook
-- Pandas – Data manipulation and analysis
-- NumPy – Numerical operations
-- Matplotlib – Data visualisation
-- Seaborn – Statistical visualisation
 
-## Project Workflow
+## Analysis Performed
+- Dataset exploration and data quality checks
+- Missing value and duplicate analysis
+- Categorical and numerical data analysis
+- Fare distribution and outlier detection using IQR
+- Family size analysis
+- Survival analysis by gender, passenger class, embarkation port, age group and family size
+- Data visualisation using charts and plots
 
-The following steps were performed during the analysis:
+## Key Findings
+- All 152 females survived, while all 266 males did not survive in this dataset.
+- First Class had the highest survival rate among passenger classes.
+- Children had the highest survival rate among age groups.
+- Passengers who survived paid a higher average fare.
 
-1. **Data Loading and Initial Exploration**
-   - Imported libraries and loaded the dataset.
-   - Examined the first and last records.
-   - Checked dataset dimensions, structure and data types.
+*Note: These findings apply to the dataset analysed and should not be generalised to the entire historical Titanic population.*
 
-2. **Data Quality Assessment**
-   - Identified missing values and calculated their percentages.
-   - Checked duplicate records.
-   - Examined unique values and passenger identifiers.
+## Repository Contents
+- `TitanicEDA.ipynb` – Complete analysis
+- `tested.csv` – Dataset
+- `README.md` – Project documentation
 
-3. **Categorical Data Analysis**
-   - Analysed passenger distribution by gender, passenger class and embarkation port.
-   - Created bar charts to visualise categorical distributions.
-
-4. **Numerical Data Analysis**
-   - Examined Age and Fare using descriptive statistics.
-   - Analysed distributions using histograms.
-   - Investigated potential fare outliers using the IQR method.
-
-5. **Family
+## Conclusion
+This project provided practical experience in data exploration, data quality assessment, statistical analysis, feature creation and visualisation using Python.
